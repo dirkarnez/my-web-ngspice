@@ -21,3 +21,4 @@ flowchart
   B --> r2[2 Ohms]
   r2 --> GND
 ```
+with injected calucated value
