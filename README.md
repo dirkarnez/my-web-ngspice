@@ -16,7 +16,7 @@ to
 flowchart
   VCC[5V] --> A{Probe A}
   VCC --> GND[GND]
-  A --> r1("<img src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO9TXL0Y4OHwAAAABJRU5ErkJggg=='; width='30' />")
+  A --> r1("<svg width='10' height='10' xmlns='http://www.w3.org/2000/svg'><circle style='fill:red' cx='5' cy='5' r='5'/></svg>")
   r1 --> B{Probe B}
   B --> r2[2 Ohms]
   r2 --> GND
